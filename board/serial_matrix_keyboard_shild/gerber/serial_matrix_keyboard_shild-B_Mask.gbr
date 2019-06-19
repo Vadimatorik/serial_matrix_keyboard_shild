@@ -1,16 +1,16 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,5.1.2-f72e74a~84~ubuntu18.04.1*
-G04 #@! TF.CreationDate,2019-06-19T14:53:36+07:00*
+G04 #@! TF.CreationDate,2019-06-19T15:11:19+07:00*
 G04 #@! TF.ProjectId,serial_matrix_keyboard_shild,73657269-616c-45f6-9d61-747269785f6b,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Bot*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 5.1.2-f72e74a~84~ubuntu18.04.1) date 2019-06-19 14:53:36*
+G04 Created by KiCad (PCBNEW 5.1.2-f72e74a~84~ubuntu18.04.1) date 2019-06-19 15:11:19*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
-%ADD10C,0.100000*%
+%ADD10C,0.020000*%
 G04 APERTURE END LIST*
 D10*
 G36*
