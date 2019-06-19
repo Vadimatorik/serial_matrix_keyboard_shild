@@ -6,7 +6,7 @@
     (tracks 176)
     (zones 0)
     (modules 21)
-    (nets 25)
+    (nets 26)
   )
 
   (page A4)
@@ -124,6 +124,7 @@
   (net 22 /BR2)
   (net 23 /BR3)
   (net 24 /BR4)
+  (net 25 "Net-(U1-Pad2)")
 
   (net_class Default "Это класс цепей по умолчанию."
     (clearance 0.15)
@@ -158,6 +159,7 @@
     (add_net "Net-(D3-Pad2)")
     (add_net "Net-(D4-Pad2)")
     (add_net "Net-(D5-Pad2)")
+    (add_net "Net-(U1-Pad2)")
   )
 
   (module Package_SO:SOIC-20W_7.5x12.8mm_P1.27mm (layer F.Cu) (tedit 5C97300E) (tstamp 5D08C3C2)
@@ -195,7 +197,8 @@
     )
     (pad 1 smd roundrect (at -4.65 -5.715 180) (size 2.05 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 2 /RESET))
-    (pad 2 smd roundrect (at -4.65 -4.445 180) (size 2.05 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25))
+    (pad 2 smd roundrect (at -4.65 -4.445 180) (size 2.05 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
+      (net 25 "Net-(U1-Pad2)"))
     (pad 3 smd roundrect (at -4.65 -3.175 180) (size 2.05 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
       (net 16 /TX))
     (pad 4 smd roundrect (at -4.65 -1.905 180) (size 2.05 0.6) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.25)
